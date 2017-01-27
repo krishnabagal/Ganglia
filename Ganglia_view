@@ -1,0 +1,153 @@
+{
+   "default_size" : "medium",
+   "view_name" : "<View-Name>",
+   "items" : [
+      {
+         "aggregate_graph" : "true",
+         "graph_type" : "line",
+         "host_regex" : [
+            {
+               "regex" : "<host-regex>"
+            }
+         ],
+         "g_title" : "Load_one",
+         "metric_regex" : [
+            {
+               "regex" : "load_one"
+            }
+         ],
+         "title" : "One Minute Load Average",
+         "vertical_label" : "",
+         "glegend" : "show"
+      },
+
+      {
+         "aggregate_graph" : "true",
+         "graph_type" : "line",
+         "host_regex" : [
+            {
+               "regex" : "<host-regex>"
+            }
+         ],
+         "g_title" : "Load_five",
+         "metric_regex" : [
+            {
+               "regex" : "load_five"
+            }
+         ],
+         "title" : "Five Minute Load Average",
+         "vertical_label" : "",
+         "glegend" : "show"
+      },
+
+      {
+         "aggregate_graph" : "true",
+         "graph_type" : "line",
+         "host_regex" : [
+            {
+               "regex" : "<host-regex>"
+            }
+         ],
+         "g_title" : "Load_fifteen",
+         "metric_regex" : [
+            {
+               "regex" : "load_fifteen"
+            }
+         ],
+         "title" : "Fifteen Minute Load Average",
+         "vertical_label" : "",
+         "glegend" : "show"
+      },
+      {
+         "aggregate_graph" : "true",
+         "graph_type" : "line",
+         "host_regex" : [
+            {
+               "regex" : "<host-regex>"
+            }
+         ],
+         "g_title" : "Memory",
+         "metric_regex" : [
+            {
+               "regex" : "mem_free"
+            }
+         ],
+         "title" : "Free Memory",
+         "vertical_label" : "",
+         "glegend" : "show"
+      },
+      {
+         "aggregate_graph" : "true",
+         "graph_type" : "line",
+         "host_regex" : [
+            {
+               "regex" : "<host-regex>"
+            }
+         ],
+         "g_title" : "Memory_cached",
+         "metric_regex" : [
+            {
+               "regex" : "mem_cached"
+            }
+         ],
+         "title" : "Cached Memory",
+         "vertical_label" : "",
+         "glegend" : "show"
+      },
+      {
+         "aggregate_graph" : "true",
+         "graph_type" : "line",
+         "host_regex" : [
+            {
+               "regex" : "<host-regex>"
+            }
+         ],
+         "g_title" : "Memory_buffers",
+         "metric_regex" : [
+            {
+               "regex" : "mem_free"
+            }
+         ],
+         "title" : "Memory Buffers",
+         "vertical_label" : "",
+         "glegend" : "show"
+      },
+      {
+         "aggregate_graph" : "true",
+         "graph_type" : "line",
+         "host_regex" : [
+            {
+               "regex" : "<host-regex>"
+            }
+         ],
+         "g_title" : "Processes-Running",
+         "metric_regex" : [
+            {
+               "regex" : "proc_run"
+            }
+         ],
+         "title" : "Total Running Processes",
+         "vertical_label" : "",
+         "glegend" : "show"
+      },
+      {
+         "aggregate_graph" : "true",
+         "graph_type" : "line",
+         "host_regex" : [
+            {
+               "regex" : "<host-regex>"
+            }
+         ],
+         "g_title" : "Total_Processes",
+         "metric_regex" : [
+            {
+               "regex" : "proc_total"
+            }
+         ],
+         "title" : "Total Processes",
+         "vertical_label" : "",
+         "glegend" : "show"
+      }
+   ],
+   "view_type" : "standard"
+}
