@@ -1,3 +1,3 @@
 # Ganglia
-
-This Scripts are use to mearged ganglia rrd files.
+- Ganglia_view : Ganglia view defination.
+- rrdmerge.py and rrdmerge.sh : Scripts are used to merage RRD- Files. 
